@@ -1,111 +1,107 @@
 {
-  "language": "en",
+  "language": "de",
   "theme": "emerald-dark",
   "meta": {
-    "title": "MyServer | Minecraft Server",
-    "description": "Join MyServer, the ultimate Minecraft survival experience."
+    "title": "SoulPvP",
+    "description": "Home of Oldschool PvP"
   },
   "server": {
-    "name": "MyServer",
-    "ip": "play.myserver.net",
-    "maintenance": false,
+    "name": "SoulPvP",
+    "ip": "soulpvp.net",
+    "maintenance": true,
     "statusApi": "https://api.mcsrvstat.us/3/{ip}",
     "refreshInterval": 60
   },
   "links": {
-    "discord": "https://discord.gg/example",
-    "shop": "https://shop.example.com"
+    "discord": "https://discord.gg/BHuNuRBCYh",
+    "shop": "https://shop.soulpvp.net"
   },
   "hero": {
     "backgroundImage": "/images/background.png",
     "logo": {
       "image": "/images/logo.png",
-      "alt": "MyServer"
+      "alt": "SoulPvP"
     },
-    "slogan": "Build. Survive. Conquer.",
-    "copyNotice": "Server IP copied to clipboard!",
+    "slogan": "Home of Oldschool PvP",
+    "copyNotice": "Server IP wurde kopiert!",
     "buttons": {
       "discord": "Discord",
       "shop": "Shop"
     }
   },
   "serverInfo": {
-    "loading": "Loading...",
+    "loading": "Lädt...",
     "playersFormat": "{online} / {max}",
     "status": {
       "online": "Online",
       "offline": "Offline",
-      "maintenance": "Maintenance"
+      "maintenance": "Wartungsarbeiten"
     },
     "items": [
       { "type": "status", "label": "Server Status", "icon": "activity" },
-      { "type": "players", "label": "Players Online", "icon": "users" },
-      { "type": "text", "label": "Uptime", "value": "24/7", "icon": "clock" },
-      { "type": "text", "label": "Supported Versions", "value": "1.20 - 1.21", "icon": "package" }
+      { "type": "players", "label": "Spieler Online", "icon": "users" },
+      { "type": "text", "label": "Verfügbarkeit", "value": "24/7", "icon": "clock" },
+      { "type": "text", "label": "Unterstützte Versionen", "value": "1.8 - 26.3", "icon": "package" }
     ]
   },
   "about": {
-    "title": "About Us",
-    "subtitle": "What makes our server special.",
+    "title": "Über uns",
+    "subtitle": "Wieso solltest du bei uns spielen?",
     "cards": [
       {
         "image": "/images/survival.png",
-        "title": "Survival",
-        "text": "Explore a vast world, build your base and survive together with the community."
+        "title": "Altes Kampfsystem",
+        "text": "Unser Server läuft nativ auf der 1.8 Minecraft Version für ein klassisches und nostalgisches PvP-Feeling. Kein Cooldown, keine Totems, keine Zweithand. Packe deine Tränke ein und mache dich auf die Jagd und kämpfe dich in der Rangliste nach oben. Wenn du stirbst, dann verlierst du dein ganzes Inventar."
       },
       {
         "image": "/images/community.png",
-        "title": "Community",
-        "text": "Join a friendly and active community with players from all over the world."
+        "title": "Hardcore Survival",
+        "text": "Wir legen unseren Fokus auf PvP. Neben der klassischen Warzone am Spawn, haben Spieler die Möglichkeit in einer Survival-Welt (Die Wildnis) Ressourcen zu farmen und ihre Base zu bauen. Aber Achtung: Es gibt keine Claims. Also pass auf, wem du vertraust und halte dein Lager gut versteckt."
       },
       {
         "image": "/images/events.png",
-        "title": "Events",
-        "text": "Take part in regular events and win exclusive rewards."
+        "title": "Community & Events",
+        "text": "Wir arbeiten eng mit der Community zusammen. Wir machen dieses Projekt schließlich für euch und nicht nur für uns. Wir nehmen Rücksicht auf eure Ideen & Vorschläge und zusammen werden wir dieses Projekt formen. Zudem werden wir regelmäßig Events und Verlosungen veranstalten."
       }
     ]
   },
   "staff": {
-    "title": "Our Team",
-    "subtitle": "The people who keep the server running.",
+    "title": "Unser Team",
+    "subtitle": "Die Köpfe hinter dem Projekt",
     "avatarApi": "https://api.mcheads.org/head/{uuid}/256",
     "profileApi": "https://playerdb.co/api/player/minecraft/{uuid}",
-    "unknownName": "Unknown",
+    "unknownName": "Unbekannt",
     "scrollSpeed": 50,
     "ranks": {
       "Owner": "#ef4444",
       "Admin": "#f97316",
-      "Moderator": "#3b82f6",
-      "Builder": "#a855f7"
+      "Developer": "#3b82f6"
     },
     "members": [
-      { "uuid": "601c3e79-9cc5-486f-8502-eedf1743aa9f", "rank": "Owner" },
-      { "uuid": "7b534d75-1f75-4592-afe3-d4dc88a8b2c7", "rank": "Admin" },
-      { "uuid": "fa603f36-0721-459d-9973-00543cfc63c4", "rank": "Moderator" },
-      { "uuid": "088fe793-aa54-43a2-a5eb-5790e704274c", "rank": "Builder" },
-      { "uuid": "7e6ef8ba-2767-4c0d-898b-810326492863", "rank": "Builder" }
+      { "uuid": "7b534d75-1f75-4592-afe3-d4dc88a8b2c7", "rank": "Owner" },
+      { "uuid": "601c3e79-9cc5-486f-8502-eedf1743aa9f", "rank": "Developer" }
     ]
   },
   "vote": {
-    "title": "Vote for Us",
-    "subtitle": "Support the server and get rewarded.",
-    "buttonLabel": "Vote now",
+    "title": "Vote für uns",
+    "subtitle": "Unterstütze den Server und erhalte Belohnungen",
+    "buttonLabel": "Jetzt abstimmen",
     "links": [
-      { "name": "Minecraft Server List", "url": "https://minecraft-server-list.com" },
-      { "name": "Planet Minecraft", "url": "https://www.planetminecraft.com/servers/" },
+      { "name": "Serverliste.net", "url": "https://serverliste.net" },
+      { "name": "MC-Liste.de", "url": "https://www.mc-liste.de" },
       { "name": "TopG", "url": "https://topg.org/minecraft-servers/" },
-      { "name": "Minecraft Servers", "url": "https://minecraftservers.org" },
-      { "name": "Minecraft MP", "url": "https://minecraft-mp.com" },
-      { "name": "Minecraft Buzz", "url": "https://minecraft.buzz" }
+      { "name": "Minecraft-Servers.de", "url": "https://minecraft-servers.de" },
+      { "name": "Minecraft-Serverlist.net", "url": "https://www.minecraft-serverlist.net/serverlist" },
+      { "name": "Minecraft-Server.eu", "url": "https://minecraft-server.eu" }
     ]
   },
   "discordCta": {
-    "title": "Join our Discord",
-    "text": "Chat with the community, get support and stay up to date.",
-    "button": "Join Discord"
+    "title": "Betrete unseren Discord",
+    "text": "Unterhalte dich mit der Community, erhalte Support und bleibe auf dem neusten Stand.",
+    "button": "Discord beitreten"
   },
   "footer": {
-    "copyright": "© {year} {name}. All rights reserved.",
+    "copyright": "© {year} {name}. Alle Rechte reserviert.",
     "disclaimer": "Not affiliated with Mojang Studios or Microsoft.",
     "buttons": {
       "discord": "Discord",
